@@ -1,20 +1,5 @@
 <?php
- 
-/**
- * 用 Command Line 送 Slack 訊息
- * 例:
- *
- * 1. 把 git log 的訊息輸出到 slack #test2 頻道
- *    $ git log -n 5 | php index.php slack "#test2"
- *
- * 2. 直接輸出 "Hello Slack World" 到 slack  #test2 頻道
- *    $ php index.php slack "#test2" "Hello Slack World"
- *
- * 3. 把檔案內容輸出到 slack  #test2 頻道
- *    $ php index.php slack "#test2" < {file}
- */
-class Slack_sender
-{
+class SendTest
     public function __construct()
     {
         parent::__construct();

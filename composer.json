@@ -14,5 +14,8 @@
         "psr-4": {
             "Fishingboy\\SlackSender\\": "/src"
         }
+    },
+    "require": {
+        "phpunit/phpunit": "~6.2.0"
     }
 }
