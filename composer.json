@@ -15,7 +15,7 @@
             "Fishingboy\\SlackSender\\": "/src"
         }
     },
-    "require": {
+    "require-dev": {
         "phpunit/phpunit": "~6.2.0"
     }
 }
